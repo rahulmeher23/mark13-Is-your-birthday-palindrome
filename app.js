@@ -184,7 +184,7 @@ function clickHandler(e) {
             output.innerText = "Yayy! Your birthday is a palindrome. 🎉"
         } else {
             var [nextPalindromeDays, nextDate] = getNextPalindromeDate(date);
-            output.innerText = `Opps! Your birthday is not a palindrome. The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${nextPalindromeDays} days.`
+            output.innerHTML = `<span style="color:#dc2626">Opps! Your birthday is not a palindrome. The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${nextPalindromeDays} days.<span>`
         }
     // console.log("Enterd Birthdate",bdayStr);
     // console.log("Split Birthdate", bday); 
