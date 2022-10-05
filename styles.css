@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     --primary-color: #1e293b;
     --secondar-color: #34d399;
@@ -5,6 +7,7 @@
 
 body{
     background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -36,7 +39,7 @@ button {
 .output-msg {
     font-size: larger;
     font-weight: 500;
-    color: var(--secondar-color);
+    color: #65a30d;
 }
 
 
