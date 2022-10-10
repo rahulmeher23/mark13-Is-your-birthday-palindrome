@@ -194,6 +194,8 @@ function clickHandler(e) {
     // console.log("Reversed String", reversedStr);
     // console.log("Checking for palindrome for all formats",checkPalindromeForAllFormats(date));
     // console.log("Next Palindrome Date",getNextDatePalindrome(date));
+    } else {
+        output.innerHTML =  `<span style="color:#dc2626">Please select a date!</span>`;
     }
 
 
